@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Bincho-Art.com</title>
+        <meta id="viewport" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"/> 
+        
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="styles/Other Stuff.css" />
+         <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" />
+		<link rel="stylesheet" type="text/css" href="styles/sortable_gallery.css" />
+	<script type="text/javascript" src="styles/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="styles/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="styles/sortable_gallery.js"></script>
+		<!--[if lte IE 8]>
+			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
+		<![endif]-->
+    </head>
+    <body onload="setupZoom()">
+        <div class="container">
+		
+			
+           <!--This is for items to be placed on the uper left and right>
+           <!-- Top bar -->
+           <div class="top-bar">
+              <span class="right">
+                    
+         <a href="https://tumblr.com/"><img src="Images/Icons/small-tumblr.png"width="40" alt="Follow me on Tumblr"/></a> 
+        
+        <a href="https://twitter.com/"><img src="Images/Icons/small-twitter.png"width="40" alt=" Follow me on Twitter"/></a> 
+        
+        <a href="http://deviantart.com/"><img src="Images/Icons/small-da.png"width="40" alt="Follow me on Deviant Art"/></a> 
+        
+        <a href="http://instagram.com/"><img src="Images/Icons/small-instagram.png"width="40" alt="Follow me on Instagram"/></a>
+               </span>
+               <span class="left"> All works © Steven Anderson</span>
+             <div class="clr"></div>
+            </div><!--/ Top-bar -->
+			
+			<div class="st-container"> <!-- Nav Bar-->
+			
+				<input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+				<a href="#st-panel-1">Home</a>
+				<input type="radio" name="radio-set" id="st-control-2"/>
+				<a href="#st-panel-2">Illustration</a>
+				<input type="radio" name="radio-set" id="st-control-3"/>
+				<a href="#st-panel-3">Web Design</a>
+				<input type="radio" name="radio-set" id="st-control-4"/>
+				<a href="#st-panel-4">About Me</a>
+				<input type="radio" name="radio-set" id="st-control-5"/>
+				<a href="#st-panel-5">Contact</a>
+				
+				
+         <div class="st-scroll"><!--Main Body-->
+				<!--Home Page-->
+					<section class="st-panel" id="st-panel-1">
+						<div class="st-deco" data-icon=""></div>
+						<h2>Welcome</h2>
+                        <home><img src="images/Home-image.png"alt="Welcome to my website!"/>
+						<p>The Portfolio Website of</p><p><b>Steven Anderson</b></p><p>Please Enjoy Your Stay!</p></home>
+					</section>
+					
+                    <!--Gallery Page-->
+                    <section class="st-panel st-color" id="st-panel-2">
+						<div class="st-deco" data-icon=""></div>
+						<h2>My Drawings</h2>
+        <gallery>
+        <div class="gallery">
+ <div class="sorting">
+  <div>
+   <span>Filter by:</span>
+   <a class="sortLink selected" data-keyword = "all" href="#">All</a>
+   <a class="sortLink" data-keyword = "drawings" href="#">Drawings</a>
+   <a class="sortLink" data-keyword = "digital-paintings" href="#">Digital Paintings</a>
+   <a class="sortLink" data-keyword = "other" href="#">Other</a>
+   <a class="sortLink" data-keyword = "original" href="#">Original</a>
+   <div class="clear_both"></div>
+  </div>
+ </div>
+ <div class="photos">
+  <div class="thumbnail_container">
+   <a class="thumbnail" title="This is a caption for TMNT.jpg" href="images/Ninja-Turtles by Steven Anderson.jpg" data-keywords="drawings"><img src="images/Ninja-Turtles-thumb.jpg"/></a>
+   <a class="thumbnail" title="This is a caption for Dexter.jpg" href="images/Dexter-Robo by Steven Anderson.jpg" data-keywords="drawings"><img src="images/Dexter-Robo-thumb.jpg"/></a>
+   <a class="thumbnail" title="This is a caption for Uchu" href="images/Uchu by Steven Anderson.jpg" data-keywords="drawings"><img src="images/Uchu-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Pokemon Fusion" href="images/Pokemon-Fusion by Steven Anderson.jpg" data-keywords="drawings"><img src="images/Pokemon-Fusion-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Winter Girl" href="images/Winter-Girl by Steven Anderson.jpg" data-keywords="drawings original"><img src="images/Winter-Girl-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Winter Boy" href="images/Winter-Boy by Steven Anderson.jpg" data-keywords="drawings original"><img src="images/Winter-Boy-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Joker Unmasked" href="images/Faceless-Joker by Steven Anderson.jpg" data-keywords="digital-paintings"><img src="images/Faceless-Joker-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Vader" href="images/Vader by Steven Anderson.jpg" data-keywords="digital-paintings"><img src="images/Vader-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Landscape." href="images/Landscape Study by Steven Anderson.jpg" data-keywords="digital-paintings"><img src="images/Landscape-Study-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Batman" href="images/Batman.jpg" data-keywords="digital-paintings"><img src="images/Batman-thumb.jpg"/></a>
+	<a class="thumbnail" title="This is a caption for Monkey-Bear" href="images/Monkey-Bear by Steven Anderson.jpg" data-keywords="other"><img src="images/Monkey-Bear-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Monkey-Soda" href="images/Monkey-Soda by Steven Anderson.jpg" data-keywords="other original"><img src="images/Monkey-Soda-thumb.jpg"/></a>
+    <a class="thumbnail" title="This is a caption for Monkey-Train" href="images/On a Train by Steven Anderson.jpg" data-keywords="other original"><img src="images/On a Train-thumb.jpg"/></a>
+        <a class="thumbnail" title="This is a caption for Monkey-Fishing" href="images/Monkey-Fishing by Steven Anderson.jpg" data-keywords="other original"><img src="images/Monkey-Fishing-thumb.jpg"/></a>
+</div>
+ </div>
+</div>
+
+        </gallery>
+        </section>
+        	</section>
+					
+					<!--Web Design Page-->
+                    <section class="st-panel" id="st-panel-3">
+						<div class="st-deco" data-icon=""></div>
+						<h2>Web Designs</h2>
+                   
+
+			>
+    		</section>
+					
+					<!--About Page-->
+                    <section class="st-panel st-color" id="st-panel-4">
+						<div class="st-deco" data-icon=""></div>
+						<h2>About Me</h2>
+							<about>Formerly a character designer in the animation industry, I became interested in web/graphic design in 2012 and fell in love with it. I still love illustration and cartooning (and will never stop!), but my focus for right now is on web development.<br><br> My main skill set resides in digital illustration, but I pride myself in being versatile in numerous mediums and software. I hope to improve and develop my web design skills to match my competence as a draftsman.</about>
+
+			<center><resume><a href="Images/Resume.pdf">My<br>Resume</a></resume></center>
+    		</section>                    
+					
+					<!--Contact Page-->
+                    <section class="st-panel" id="st-panel-5">
+						<div class="st-deco" data-icon=""></div>
+						<h2>Contact Me</h2>
+                        
+        <contact><center><script language="javascript">var sa_email_id = '10553-d7787';var sa_sent_text = 'Thanks for contacting me. I will get back to you soon.';</script>
+<script language="javascript" src="http://s1.smartaddon.com/sa_htmlform.js"></script>
+<div id="sa_contactdiv">
+<form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
+
+Name:<br><input type="text" name="name" />
+E-mail Address: <span style="color:#D70000">*</span><br><input type="text" name="email" required />
+Subject: <span style="color:#D70000">*</span><br><input type="text" name="subject" required />
+Message: <span style="color:#D70000">*</span><br><textarea name="message" cols="42" rows="9" required=ture style="margin: 0px; width: 500px; height: 117px;"></textarea>
+<input type="submit" value="Submit">
+
+</form><div style="padding-top:10px"> </div></div></contact>
+        
+ 		 <social><center> 
+      <a href="https://tumblr.com/"><img src="Images/Icons/new tumblr.png"height="80" alt="Follow me on Tumblr"/></a>
+        
+        <a href="https://twitter.com/"><img src="Images/Icons/new twitter.png"height="80" alt=" Follow me on Twitter"/></a> 
+        
+        <a href="http://deviantart.com/"><img src="Images/Icons/new da.png"height="80" alt="Follow me on Deviant Art"/></a> 
+        
+        <a href="http://instagram.com/"><img src="Images/Icons/new instagram.png"height="80" alt="Follow me on Instagram"/></a>
+        </center></social>
+        </section>
+
+				</div> <!-- // st-scroll -->
+				</div> <!-- // st-container -->
+			
+        </div>
+	</body>
+</html>

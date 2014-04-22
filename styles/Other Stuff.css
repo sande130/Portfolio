@@ -1,0 +1,48 @@
+@import url('file:///Macintosh HD/Users/stevenanderson/Desktop/Web work/shhhh/css/normalize.css');
+/* Other Stuff */
+body{
+	font-family: Georgia, serif;
+	background: #ddd;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+a{
+	color: #555;
+	text-decoration: none; /*Text links*/
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+/* Header Style */
+.top-bar{
+	line-height: 24px;
+	font-size: 14px;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: arial;
+	color: #092a3e;
+}
+.top-bar a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #888;
+	display: inline-block;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+}
+.top-bar span.right{
+	float: right;
+}
+.top-bar span.right a{
+	float: left;
+	display: block;
+}
+@media screen and (max-width: 520px) {
+	.top-bar { display: none; }
+}
