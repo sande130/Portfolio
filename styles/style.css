@@ -163,40 +163,8 @@
 
 /* Content elements */
 
-.st-deco{ /*All top Triangles*/
-	width: 125px;
-	height: 125px;
-	position: absolute;
-	top: 0px;
-	left: 52%;
-	margin-left: -100px;
-	background: #fa96b5;
-	-webkit-transform: translateY(-50%) rotate(45deg);
-	-moz-transform: translateY(-50%) rotate(45deg);
-	-o-transform: translateY(-50%) rotate(45deg);
-	-ms-transform: translateY(-50%) rotate(45deg);
-	transform: translateY(-50%) rotate(45deg);
-}
+ /*All top Triangles removed from here*/
 
-[data-icon]:after { /*Every other top symbol*/
-    font-family: Arial;
-    color: #fff;
-	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	line-height: 200px;
-	text-align: center;
-	font-size: 30px;
-	top: 50%;
-	left: 50%;
-	margin: -100px 0 0 -100px;
-	-webkit-transform: rotate(-45deg) translateY(25%);
-	-moz-transform: rotate(-45deg) translateY(25%);
-	-o-transform: rotate(-45deg) translateY(25%);
-	-ms-transform: rotate(-45deg) translateY(25%);
-	transform: rotate(-45deg) translateY(25%);
-}
 
 .st-panel h2 { /*Every other heading*/
 	color: #115e8b;
@@ -563,28 +531,16 @@ input[type='submit']:hover {
 	.st-container > a {
 		font-size: 13px;
 }
+.st-color,
+.st-deco{
+	background: #fff;
 }
+
 @media only screen and (min-width: 150px) and (max-width: 600px){
 	.st-container > a {
 		font-size: 10px;
 		text-decoration: none;
 }
-	
-	.st-deco{
-		width: 120px;
-		height: 120px;
-		margin-left: -60px;
-}
-	
-	[data-icon]:after {
-		font-size: 60px;
-		-webkit-transform: rotate(-45deg) translateY(15%);
-		-moz-transform: rotate(-45deg) translateY(15%);
-		-o-transform: rotate(-45deg) translateY(15%);
-		-ms-transform: rotate(-45deg) translateY(15%);
-		transform: rotate(-45deg) translateY(15%);
-}
-
 .st-panel h2 { /*Scaled Headings*/
 	color: #115e8b;
 	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
@@ -597,13 +553,22 @@ input[type='submit']:hover {
 	line-height: 50px;
 	margin: -70px 0 0 0;
 	padding: 0;
-	top: 20%;
+	top: 10%;
 	-webkit-backface-visibility: hidden;
 }
 
 .st-panel home img {
 		height: 100%;
 		margin: 1% 0
+}
+
+.st-panel gallery {
+	    top: 8%;
+}
+
+.st-color,
+.st-deco{
+	background: #fff;
 }
 
 
